@@ -90,6 +90,7 @@ require 'motion-cocoapods'
 Motion::Project::App.setup do |app|
   app.pods do
     use_frameworks!
+    pod 'Firebase/Analytics'
     pod 'Fabric', '~> 1.10.1'
     pod 'Crashlytics', '~> 3.13.1'
   end
